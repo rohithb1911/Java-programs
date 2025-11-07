@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class time
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int hour=a/3600;
+        int b=a%3600;
+        int min=b/60;
+        int sec=b%60;
+        System.out.println(hour+":HOURS "+min+":MIN "+sec+":SEC");
+    }
+}
